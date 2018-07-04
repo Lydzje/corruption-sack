@@ -254,7 +254,7 @@ public class Player extends Mob {
 
 		areas = new AttackArea[1];
 		aKeys = new int[1];
-		areas[0] = new AttackArea(this, 2, 44, (int) position.y, 20, 64, 20, 0);
+		areas[0] = new AttackArea(this, 2, 44, (int) position.y, 20, 64, 75, 0);
 		aKeys[0] = 2;
 
 		sounds = new Sound[1];
@@ -270,7 +270,7 @@ public class Player extends Mob {
 
 		AttackArea[] areas = new AttackArea[1];
 		int[] aKeys = new int[1];
-		areas[0] = new AttackArea(this, 9, 32, (int) position.y, 24, 64, 25, 0);
+		areas[0] = new AttackArea(this, 9, 32, (int) position.y, 24, 64, 90, 0);
 		aKeys[0] = 1;
 
 		Sound[] sounds = new Sound[1];

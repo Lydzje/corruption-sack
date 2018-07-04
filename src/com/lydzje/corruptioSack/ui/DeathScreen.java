@@ -15,12 +15,13 @@ public class DeathScreen {
 	private String runningAway2 = "they'll stop chasing you.";
 	private String facingIce = "It's not necessary to face the ice projectile to punch it.";
 	private String solo = "Don't fight 3 ice monsters at the same time.";
+	private String dodge = "It's very important to dodge enemies attacks.";
 
 	private float alpha;
 	private int tip = 0;
 
 	public DeathScreen() {
-		tip = Game.random.nextInt(3);
+		tip = Game.random.nextInt(4);
 	}
 
 	// private int time = 0;
@@ -57,6 +58,8 @@ public class DeathScreen {
 			g2.drawString(facingIce, 167 * Game.getScale(), 200 * Game.getScale());
 		} else if (tip == 2) {
 			g2.drawString(solo, 175 * Game.getScale(), 200 * Game.getScale());
+		} else if (tip == 3) {
+			g2.drawString(dodge, 175 * Game.getScale(), 200 * Game.getScale());
 		}
 	}
 }

@@ -16,7 +16,7 @@ public class IceProjectile extends Projectile {
 		center = new Vector2d(position.x + sprite.getWidth() / 2, position.y + sprite.getHeight() / 2);
 		speed = 2.5;
 		range = 200;
-		damage = 10;
+		damage = 40;
 
 	}
 

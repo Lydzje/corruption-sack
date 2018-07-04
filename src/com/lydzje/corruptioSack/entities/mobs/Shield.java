@@ -45,7 +45,7 @@ public class Shield extends Mob {
 
 		areas = new AttackArea[1];
 		aKeys = new int[1];
-		areas[0] = new AttackArea(this, 9, 32, (int) position.y, 24, 64, 25, 0);
+		areas[0] = new AttackArea(this, 9, 32, (int) position.y, 24, 64, 90, 0);
 		aKeys[0] = 1;
 
 		sounds = new Sound[1];

@@ -23,8 +23,8 @@ public class Thunder extends Mob {
 
 		speed = 2;
 		originalSpeed = speed;
-		maxHP = 100;
-		hp = 100;
+		maxHP = 200;
+		hp = 200;
 		corruption = 600;
 		anim = thunderR;
 		sprite = anim.getSprite();

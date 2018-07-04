@@ -26,7 +26,7 @@ public class Thunderbolt {
 		this.position = position;
 		thunderbolts.add(this);
 		thunderboltsAttackAreas.add(this);
-		damage = 160;
+		damage = 140;
 		thunderbolt.setPlayingAnim(true);
 	}
 

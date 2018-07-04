@@ -352,7 +352,7 @@ public class InitialLevel extends Level {
 			}
 
 			if (time == 800) {
-				Mob.setBounds(0, 7000);
+				Mob.setBounds(0, 9000);
 				mobs.add(new Shield(new Vector2d(player.getPosition().x + 500, terrainLevel - 63)));
 			}
 

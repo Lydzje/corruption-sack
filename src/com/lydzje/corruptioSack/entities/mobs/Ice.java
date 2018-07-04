@@ -20,10 +20,10 @@ public class Ice extends Mob {
 		new IceAI(this);
 		mobX = 4;
 		mobWidth = 24;
-		maxHP = 100;
+		maxHP = 60;
 		hp = 60;
 		corruption = 200;
-		speed = 1.8;
+		speed = 1.6;
 		originalSpeed = speed;
 		anim = iceR;
 		sprite = anim.getSprite();
