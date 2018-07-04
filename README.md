@@ -1,7 +1,9 @@
 # corruption-sack (not finished)
 My first entry in Ludum Dare jams. It was the 35th edition and the theme was shapeshifting. I joined for the Compo (a game in 48h from scratch) and I failed :P
 
-If you wanna try it, click [here](https://github.com/Lydzje/corruption-sack/raw/master/bin/corruptionSackV2.jar) to download an executable jar. The game is too hard, sorry hahaha.
+If you wanna try it, click [here](https://github.com/Lydzje/corruption-sack/raw/master/bin/corruptionSack.jar) to download an executable jar.
+
+There may be some bugs, I found some testing it now. I was very unexperienced with gamedev when I made it and everything is a mess. 
 
 In my Linux system I had to install OpenJFX in order to make it run:
 ```shell
