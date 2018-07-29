@@ -1,4 +1,6 @@
 # corruption-sack (not finished)
+[![License | Unlicense](https://img.shields.io/badge/license-unlicense-blue.svg)](https://github.com/Lydzje/corruption-sack/blob/master/LICENSE)
+
 My first entry in [Ludum Dare](http://ludumdare.com/compo/rules/) jams. It was the 35th edition (April 15th-18th, 2016) and the theme was shapeshifting. I joined for the Compo (a game in 48h from scratch) and I failed :P
 
 If you wanna try it, click [here](https://github.com/Lydzje/corruption-sack/raw/master/bin/corruptionSack.jar) to download an executable jar.
